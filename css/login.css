@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    padding: 0;
+    /*font-family: 'Montserrat Alternates', sans-serif;*/
+}
+.box1{
+    height:750px;
+    width: 1350px;
+    background-image: url(/images/loginimage1.jpg);
+    background-size: cover;
+}
+.box1 ul li{
+    float:right;
+    display: block;
+    list-style: none;
+    margin-right: 50px;
+}
+.box1 ul li a {
+    font-size: 20px;
+    padding:20px;
+    color: white; 
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.box1 h1{
+    color:white;
+    text-shadow: -3px -3px black;
+    font-size: 63px;
+    position: relative;
+    top:500px;
+    left:300px;
+    text-transform: capitalize;
+}
+.container{
+    height:510px;
+    width:1350px;
+    margin: 20px;
+    background:white;
+}
+.box2{
+    height: 510px;
+    width: 450px;
+    background:whitesmoke;
+    float: left;  
+    box-shadow: 0 0 5px;
+
+    text-align: center;
+    border: px solid black;
+}
+.box2 h1{
+    color:brown;
+    box-shadow: 0px -3px black;
+}
+
+.input-box{
+    background:wheat;
+    border-radius:10px;
+    font-size:17px;
+    padding:10px;
+    margin:10px;
+    width:70%;
+    border:-3px -3px solid black;
+    outline: none;
+}
+.signup-btn{
+    color:white;
+    background:rgb(65, 68, 225);
+}
+button{
+    width:35%;
+    padding:10px;
+    border-radius:20px;
+    font-size:15px;
+    margin:5px;
+    border:none;
+    outline: none;
+}
+button:hover{
+    width:45%;
+    color:black;
+    background:skyblue;
+    border-radius:5px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+.or{
+    background: white;
+    width:30px;
+    margin:-7px auto 10px;
+}
+.box3{
+    height:300px;
+    width: 500px;
+    background-image: url(/images/loginimage3.jpg);
+    background-size: cover;
+    float: left;  
+    margin-top: 100px;
+    margin-left: 150px;
+    border: 2px solid white;
+    border-radius: 23px;
+    box-shadow:0 0 30px black;
+}

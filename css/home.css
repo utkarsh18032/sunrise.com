@@ -1,0 +1,131 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.layout{
+    height:850px;
+    width:1350px;
+}
+.header1{
+    height:250px;
+    width:800px;
+    background:royalblue;
+    float:left;
+    display: block;
+}
+.header1 ul li>ul li{
+    display:none;
+    padding-left:1px;
+    font-size: 18px;
+}
+.header1 ul li:hover>ul li{
+    display:block;
+}
+.header2{
+    height:250px;
+    width:550px;
+    background:royalblue;
+    float:left;
+}
+h2{
+    text-align: center;
+    color: black;
+    text-shadow:-1px -1px white;
+    margin: auto;
+}
+button{
+    font-size:14px;
+    width:60px;
+    height:25px;
+    border-radius:10px;
+    
+}
+button:hover{
+    color:white;
+    background:red;
+    height:30px;
+    width:90px;
+   border-radius: 1px;
+}
+.sideheader{
+    margin-top:16px;
+    margin-left:100px;
+}
+input{
+  padding-left:40px;
+  padding-top:10px;
+}
+/*.header3{
+    height:50px;
+    width:1350px;
+    background:brown;
+    float:left;
+    text-align: center;
+}*/
+.container{
+    height:600px;
+    width:1350px;
+    background: orange;
+    float: left;
+}
+.container img{
+    height:600px;
+    width:1350px;
+}
+.header1 ul li{
+    float: left;
+    list-style: none;
+    padding-left:20px;
+    font-size:30px; 
+    text-transform: capitalize;
+}
+.header1 ul li a{
+    text-decoration: none;
+    color:white;
+}
+.header1 ul li a:hover{
+    text-shadow:-2px -2px black;
+}
+.box1{
+    height:400px;
+    width:1350px;
+    background-image: url('/images/foodphoto3.jpg');
+    background-size:contain;
+    float: left;
+}
+.box1 h1{
+    margin-left:50px;
+    font-size:50px;
+    color:orangered;
+    text-shadow: -2px -2px gray;
+}
+.box1 ul li{
+    list-style: none;
+    float: left;
+    display: inline;
+    height:18px;
+    width:160px;
+    padding-left:10px;
+    font-size:18px;
+    
+}
+.box1 ul li a{
+    text-decoration: none;
+    color:white;
+    text-transform: capitalize;
+}
+.box1 ul li:hover{
+    text-transform: uppercase;
+    font-size:20px;
+    text-shadow: -1px -1px black;
+    
+}
+.box1 ul li>ul li{
+    display:none;
+    padding-left:1px;
+    font-size: 16px;
+}
+.box1 ul li:hover>ul li{
+    display: block;
+    z-index: 1;}

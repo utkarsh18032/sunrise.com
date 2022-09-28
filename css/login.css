@@ -92,7 +92,7 @@ button:hover{
 .box3{
     height:300px;
     width: 500px;
-    background-image: url(/images/loginimage3.jpg);
+    background-image: url(../images/loginimage3.jpg);
     background-size: cover;
     float: left;  
     margin-top: 100px;

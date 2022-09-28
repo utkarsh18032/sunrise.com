@@ -6,7 +6,7 @@ body{
 .box1{
     height:750px;
     width: 1350px;
-    background-image: url(/images/aboutusimage7.jpg);
+    background-image: url(../images/aboutusimage7.jpg);
 }
 .box1 ul li{
     float:right;
@@ -65,7 +65,7 @@ body{
 .box3{
     height:400px;
     width:1340px;
-    background-image: url(/images/aboutusimage6.jpg);
+    background-image: url(../images/aboutusimage6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     float: left;

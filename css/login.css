@@ -6,7 +6,7 @@ body{
 .box1{
     height:750px;
     width: 1350px;
-    background-image: url(/images/loginimage1.jpg);
+    background-image: url(../images/loginimage1.jpg);
     background-size: cover;
 }
 .box1 ul li{
